@@ -3,6 +3,8 @@ Play Framework sample chat application
 
 [View the screencast here](https://www.youtube.com/watch?v=47TqFH8MXhk).
 
+[Discussion on Reddit](http://redd.it/31znzu)
+
 Inspired by:
 
 - https://www.youtube.com/watch?v=tsz-assb1X8 Netty 15 min.
