@@ -1,9 +1,0 @@
-This is your new Play application
-=================================
-
-This file will be packaged with your application, when using `activator dist`.
-
-https://www.youtube.com/watch?v=lW1vsKMUaKg NodeJs 5 min.
-https://www.youtube.com/watch?v=tsz-assb1X8 Netty 15 min.
-http://www.websocket.org/echo.html WebSockets Try-out
-http://oboejs.com/api Partial JSON loading
