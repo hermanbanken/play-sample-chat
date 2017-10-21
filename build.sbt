@@ -1,14 +1,17 @@
+
 name := """chat"""
 
-version := "1.0-SNAPSHOT"
+version := "2.0-SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
-scalaVersion := "2.11.1"
+resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
 
-libraryDependencies ++= Seq(
-  jdbc,
-  anorm,
-  cache,
-  ws
-)
+resolvers += "Akka Snapshot Repository" at "http://repo.akka.io/snapshots/"
+
+scalaVersion := "2.12.2"
+
+libraryDependencies ++= Seq(ehcache, ws, specs2 % Test, guice)
+
+unmanagedResourceDirectories in Test <+= baseDirectory(
+  _ / "target/web/public/test")
