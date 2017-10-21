@@ -13,3 +13,11 @@ Also nice:
 
 - http://www.websocket.org/echo.html WebSockets Try-out
 - http://oboejs.com/api Partial JSON loading
+
+Support:
+
+this project supports Play 2.6.x and has been migrated to.
+
+- scala: 2.12.x
+- Play: 2.6.x
+- sbt : 0.13.5
